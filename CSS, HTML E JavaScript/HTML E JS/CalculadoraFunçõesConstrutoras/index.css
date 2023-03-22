@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root{
+
+    --corPrimaria: rgb(9, 48, 56);
+    --corSecundaria: rgb(27, 138, 163);
+
+}
+body{
+
+    font-family: 'Open sans', sans-serif;
+    background-color: var(--corSecundaria);
+    font-size: 1.3em;
+    line-height: 1.5em;
+
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+  }
+
+.caixa{
+
+    max-width: 500px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+.display{
+
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+
+}
+
+.btn{
+
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 0.8em;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.btn:hover{
+
+    background-color: var(--corPrimaria);
+    opacity: 80%;
+    color: white;
+
+}
+
+.btn-eq:hover{
+
+    background-color: blue;
+
+}
+
+.btn-clear:hover{
+
+    background: red;
+
+}

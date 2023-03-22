@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root{
+
+    --corPrimaria: rgb(9, 48, 56);
+    --corSecundaria: rgb(27, 138, 163);
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} /* Codigo para tirar as setas do input type number */
+
+body{
+
+    font-family: 'Open sans', sans-serif;
+    background-color: var(--corPrimaria);
+
+}
+
+.caixa{
+
+    width: 500px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.paragrafoIMC1{
+
+    float: left;
+    text-align: left;
+    width: 250px;
+    
+
+}
+.calculeIMC{
+
+    float: auto;
+
+}
+#peso{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 95%;
+    
+}
+#altura{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 95%;
+    
+}
+.botao{
+
+    width: 100%;
+    padding: 8px;
+    background-color: var(--corSecundaria);
+    color: white;
+
+}
+#resultado{
+
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(17, 86, 102);
+    border: 2px black solid;
+}

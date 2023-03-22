@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+        <h1>Formulários</h1>
+
+        <form>
+
+            <label for="campo_nome">Nome:</label>   <!-- Legenda para o campo | Função for, liga a palavra ao campo que esta direcionado -->
+            <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required> <!-- Campo para digitar texto | Placeholder = Marca d'agua no campo | Id = liga a legenda ao campo | required = Obriga o usuario e preencher o campo -->
+            <br>
+            <labe for="campo_email">Email:</labe>
+            <input id="campo_email" type="email" placeholder="Digite seu email aqui" required> <!-- Type email para emails, indicando se o conteudo é um email -->
+            <br>
+            <labe for="campo_senha">Senha:</labe>
+            <input id="campo_senha" type="password" placeholder="Digite sua senha aqui" required> <!-- Type para senha, escondendo o conteudo inserido -->
+
+        <h2>Type radio</h2>
+
+            <input id="botao1" type="radio" name="comida" value="Tomate">   <!-- Type radio, função para escolher apenas uma das opções. name deve ser igual para todo o conjunto -->
+            <label for="botao1">Tomate</label>
+            <br>
+            <input id="botao2" type="radio" name="comida" value="Abacate">
+            <label for="botao2">Abacate</label>
+            <br>
+            <input id="botao3" type="radio" name="comida" value="Pepino">
+            <label for="botao3">Pepino</label>
+
+        <h2>Type Checkbox</h2>
+
+            <P>Qual você tem em casa?</P>
+            <input type="checkbox" id="check1" name="animal" value="cachorro">
+            <label for="check1">Cachorro</label>
+            <br>
+            <input type="checkbox" id="check2" name="animal" value="gato">
+            <label for="check2">Gato</label>
+            <br>
+            <input type="checkbox" id="check3" name="animal" value="Passaro">
+            <label for="check3">Passaro</label>
+
+        <h2>Type Select</h2>
+
+            <select name="cores">
+                <option selected disabled value="">Escolha uma cor</option> <!-- Selected e disable, servem de legenda para o type select -->
+                <option value="vermelho" >Vermelho</option>
+                <option value="amarelo">Amarelo</option>
+                <option value="verde">Verde</option>
+                <option value="azul">Azul</option>
+            </select>
+
+        <h2>Campo de texto</h2>
+
+            <textarea name="mensagem" rows="10" cols="50" placeholder="Digite aqui a sua mensagem!"></textarea>
+
+
+            <br><br><br>
+            <input type="submit" value="Enviar Formulários"> <!-- Type submit para botões -->
+            <button>Clique aqui!</button> <!-- Tag para botão, dentro de formulario ele ganha as propriedades de submit -->
+
+        </form> 
+
+        <hr>
+    
+        <a href="index.html">Voltar para principal</a>
+
+</body>
+
+</html>

@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Mouse+Memoirs&family=Square+Peg&display=swap&family=Indie+Flower&display=swap');
+body{
+
+    background-color: rgb(90, 88, 88);
+    margin: 0px;
+}
+
+h1{
+
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 5px outset black;
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'Square Peg', cursive;
+
+}
+
+.paragrafo1{
+
+    border: 4px solid rgb(0, 0, 0);
+    color: white;
+    float: left;
+    width: 49%;
+    padding: 10px;
+    margin: 1px;
+    background-color: rgb(5, 51, 1);
+    text-align: justify;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+
+}
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+
+nav.menu{
+
+    background: white;
+    padding:  10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 4px solid black;
+    position: sticky;
+    top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.menu a{
+
+    display: inline-block;
+    
+}
+
+.menu a{
+
+    text-decoration: none;
+    color: black;
+    padding:  16px 20px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    
+
+}
+
+.botao1 {
+
+    background-color: blue;
+
+}
+.botao1:hover{
+
+    background-color: rgb(0, 174, 255);
+    border-right: 3px solid rgb(245, 77, 105);
+    border-left: 3px solid rgb(247, 82, 109);
+
+}
+
+.botao2{
+
+    background-color: blue;
+    
+}
+.botao2:hover{
+
+    background-color: rgb(255, 153, 0);
+    text-decoration: underline;
+    color: white;
+    border-right: 3px solid rgb(255, 0, 0);
+    border-left: 3px solid rgb(252, 0, 0);
+
+}
+
+.botao3{
+
+    background-color: blue;
+
+}
+.botao3:hover{
+
+    background-color: white;
+    border-right: none;
+    border-left: none;
+    border-right: 3px solid rgb(255, 255, 255);
+    border-left: 3px solid rgb(255, 255, 255);
+    border-bottom: 4px solid rgb(123, 255, 0);
+    padding-bottom: 0px;
+
+}
+
+.botao4{
+
+    background-color: blue;
+
+}
+.botao4:hover{
+
+    background-color: rgb(174, 0, 255);
+    font-weight: bold;
+    font-size: 16px;
+    padding:  16px 18.66px;
+    
+
+}
+.botao5{
+
+    background-color: blue;
+
+}
+.botao5:hover{
+
+    background-color: rgb(174, 0, 255);
+    font-weight: bold;
+    font-size: 16px;
+    padding:  16px 18.66px;
+    
+
+}
+
+.botaologin{
+
+    background-color: blue;
+    float: right;
+
+}
+
+.botaologin:hover{
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-right: 3px solid purple;
+    border-left: 3px solid purple;
+
+}
+
+.paragrafo{
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 4px solid rgb(0, 0, 0);
+    color: white;
+    float: left;
+    padding: 10px;
+    margin: 1px;
+    background-color: rgb(5, 51, 1);
+    text-align: justify;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+
+}
+
+#botao{
+
+    height: 40px;
+    width: 166px;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.botao{
+
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    background-color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    border-radius: 5px;
+    color: white; 
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.botao:hover{
+
+    border: 5px solid black;
+    color: black;
+    background-color: white;
+
+}
+
+#video{
+
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+
+#container{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 250px;
+    background-color: black;
+
+}
+
+.div1{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: inline-block;
+
+}
+
+.div2{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: inline-block;
+
+}
+
+.div3{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+
+}
+
+#whats{
+
+    background-color: green;
+    color: white;
+    width: 63px;
+    height: 63px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 30px;
+
+}
+
+.centro{
+
+    position: absolute;
+    top: 5px;
+    width: 100%;
+    text-align: center;
+
+}
+.scrol{
+
+    text-align: justify;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: white;
+    background-color: rgb(5, 51, 1);
+    height: 250px;
+    overflow: auto;
+    border: 4px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.float{
+
+    border: 3px solid black;
+    overflow: auto;
+    margin: 10px;
+    
+}
+.float img{
+
+    float: left;
+    margin: 20px;
+    
+}
+.float p{
+
+    text-align: justify;
+    margin: 20px;
+
+}
+
+ul{
+
+    background: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+li{
+
+    float: left;
+
+}
+li a{
+
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: rgb(238, 238, 238);
+    
+
+}
+li a:hover, .dropdown:hover .dropdownbto{
+
+    background: red;
+
+}
+
+li.dropdown{
+
+    display: inline-block;
+
+}
+.dropdown-content{
+
+    display: none;
+    position: absolute;
+    width: 150px;
+    background: white;
+    
+}
+.dropdown-content a{
+
+    color: black;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.dropdown:hover .dropdown-content{
+
+    display: block;
+
+}

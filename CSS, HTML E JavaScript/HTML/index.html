@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu é o meu primeiro site!">
+    <meta name="keywords" content="curso, app, testes, abacate">
+    <meta name="author" content="Arthur dos Reis"> 
+    <link rel="shortcut icon" href="img/3075977.ico"> <!-- Tag para colocar icones do lado do titulo da pagina -->
+    <title>Abacate</title>
+</head>
+
+<body>
+
+    <h1>Meu primeiro site!</h1> <!-- Tag para titulos, vão de 1 a 6, serve para informar hierarquias de conteudos -->
+    <p>Olá</p> <!-- Tag <p> para paragrafos -->
+
+    <!-- Formatação de texto: --> <h2> Formatação de Texto </h2>
+
+        <br> <!-- Pular linhas -->
+        <b>Teste B</b> <!-- Tag para negrito -->
+        <strong>Teste strong</strong> <!-- Tag para mostar importancia ao site -->
+        <small>Teste small</small> <!-- Tag para diminuir a letra -->
+        <del>Teste del</del> <!-- Tag para criar um risco na letra -->
+        <sup>Teste sup</sup> <!-- Tag para escrever mais acima do texto -->
+        <sub>Test sub</sub> <!-- Tag para escrever mais abaixo do texto -->
+        <mark>Test mark</mark> <!-- Tag marca texto -->
+        <i>Teste i</i> <!-- Tag italico -->
+        <u>Teste u</u> <!-- Tag sublinhar -->
+        <hr> <!-- Linha que divide o site -->
+        &nbsp; <!-- Codigo para dar espaço -->
+
+    <!-- Elementos de citação: --> <h2> Elementos de citação </h2>
+
+        <abbr title="salve">Teste abbr</abbr> <!-- Tag fornece uma "explicação quando o cursor estiver posicionado", para abreviaturas -->
+        <address>www.testeaddres.com</address> <!-- Tag para emails, urls, endereços -->
+        <cite>TesteCite</cite> <!-- Tag para se referir a obras literarias ou filmes -->
+        <q>TesteQ</q> <!-- Tag para citação -->
+        <blockquote>TesteBlockquote</blockquote> <!-- Destaque para um elemento do texto -->
+        <bdo dir="rtl">TesteBDO</bdo> <!-- Tag para inverter a posição do texto: "auto" "ltr" "rlt" -->
+        <hr> <!-- Linha que divide o site -->
+
+    <!-- links: --> <h2> Links </h2>
+                             
+        <a href="https://google.com" target="_blank">Teste A.</a><br> <!-- Cria um link - Href, caminho absoluto para o site - Target, abre o site em outra aba -->
+        <a href="index2.html">Página 2</a> <!-- Cria um link que leva para outra pagina em outro arquivo HTML -->
+        <a href="equipe/equipe.html">Página 3</a> <!-- Leva para outro arquivo html dentro de uma pasta -->
+        <br>
+
+    <!-- Imagens: --> <h2> Imagens </h2>
+
+        <img src="https://saude.abril.com.br/wp-content/uploads/2017/07/abacate3.jpg?quality=85&strip=info&w=680&h=453&crop=1" width="300" height="" alt="Abacate"> <!-- Tag img não precisa de fechamento | Tag para imagens com caminho absoluto | Tag width largura da imagem | Tag Heigth para altura da imagem | Tag alt descrição para deficientes visuais -->
+        <img src="img/abacate3.png" width="300"> <!-- Imagem com caminho no proprio computador -->
+        <a href="https://google.com"> <img src="img/abacate3.png" width="300" > </a> <!-- Tag para colocar links na imagem -->
+
+        {
+        <img src="img/abacate3.png" usemap="#image-map">
+
+        <map name="image-map">
+            <area target="_blank" alt="Youtube" title="Youtube" href="https://youtube.com" coords="220,311,77" shape="circle">
+            <area target="_blank" alt="Google" title="Google" href="https://google.com" coords="480,268,96" shape="circle">
+        </map> <!-- Mapeamento de imagem -->
+        }
+
+    <!-- Tabelas --> 
+
+        <br>
+        <h2>Tabelas</h2>
+
+        <table width="100%" border="1">
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Peso</th>
+            </tr>
+            <tr>
+                <td>Arthur</td>
+                <td>19</td>
+                <td>63 Kg</td>
+            </tr>
+            <tr>
+                <td>Juninho</td>
+                <td>12</td>
+                <td>630 Kg</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table width="100%" border="1">
+            <tr>
+                <th>Alimento</th>
+                <th>Proteínas</th>
+                <th>Carboidratos</th>
+                <th>Gordura</th>
+            </tr> 
+            <tr>
+                <td>Ovo</td>
+                <td>13g</td>
+                <td>1,1g</td>
+                <td>11g</td>
+            </tr>
+            <tr>
+                <td>Leite</td>
+                <td>5,8g</td>
+                <td>10g</td>
+                <td>6g</td>
+            </tr>
+        </table>
+    
+    <!-- Listas --> 
+    
+    <h2> Listas não ordenadas </h2> 
+
+        <ul>                    <!-- Ul=Unordered list -->
+            <li>Arroz</li>
+            <li>Feijão</li>
+            <li>Macarrão</li>
+        </ul>
+
+    <h2> Listas ordenadas </h2> 
+
+        <ol>                   <!-- Ol=Ordened List -->
+            <li>Arroz</li>
+            <li>Feijão</li>
+            <li>Macarrão</li>
+        </ol>
+        
+    <!-- iFrames --> <h2>iFrames</h2>
+
+        <iframe src="Equipe/equipe.html" width="300" height="500" ></iframe> <!-- Tag para abrir paginas dentro da pagina -->
+        <iframe src="index2.html" width="300" height="500" ></iframe>
+
+        <!-- Botão para abrir o iFrame --> 
+        <a href="index2.html" target="teste-iframe">Teste iframe</a> 
+        <iframe src="" name="teste-iframe" width="300" height="500" style="border:none;"></iframe>
+
+    <!-- Formulários --> <h2>Formulários</h2>   
+    
+        <a href="formularios.html"> Formulários </a>
+
+    <!-- Áudio --> <h2>Áudio</h2>
+       
+        <audio controls controlslist="nodownload noplaybackrate"> <!-- Tag controls para adicionar o controlador de áudio // Tag controlslist no downloader para retirar opção de download // Tag controlslist noplaybackrate para tirar regulador de velocidade do áudio -->
+
+            <source src="audio/inesquecível esquecer dessa noite - speed up.mp3" type="audio/mpeg"> <!-- Audio por aquivo mp3 // mpeg usada para arquivos mp3 -->
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpge"> <!-- Audio por link -->
+
+        </audio>
+
+    <!-- Vídeos --> <h2>Vídeos</h2>
+
+        <video controls disablePictureInPicture controlslist="nodownload noplaybackrate" width="20%" poster="img/abacate3.png"> <!-- Tag disablePictureInPicture para desativar o modo picture in picture dos videos, não entrando dentro de controlslist // Tag poster para adicionar thumb nos vídeos // Tag "autoplay" para inciar video sozinho // Tag "nofullscreen" para desabilitar full screen entrando dentro de controlslist -->
+
+            <source src="video/Life could be a dream.mp4" type="video/mp4">
+
+        </video>
+
+    <!-- Div e HTML Semântico --> <h2>Div e HTML Semântico</h2>
+
+        <a href="div e html semantico.html">Div e HTML Semântico</a>
+        
+<hr>     
+    
+</body>
+
+</html>

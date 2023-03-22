@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+body{
+
+    background-color: rgb(27, 138, 163);
+    font-family: 'Open sans', sans-serif;
+
+}
+.caixa{
+
+    width: 450px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+
+}
+h1:hover{
+
+    color:blue;
+
+}
+

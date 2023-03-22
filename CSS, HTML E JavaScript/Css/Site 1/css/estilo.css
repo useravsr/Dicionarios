@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(90, 88, 88);
+    margin: none; /* Tag para remover espaço existente entra a borda da pagina e os conteudos inseridos */
+}
+h1{
+    text-align: center;
+    color: red;
+    border: 5px outset black;
+    border-radius: 50px;
+    background-color: blue;
+}
+p{
+    color: white;
+    float: left;
+    width: 50%;
+    border: 3px double white;
+    padding: 10px; /* Igual a propriedade margin, porem o padding preenche dentro dos limites do conteudo, margin é o espaçamento fora do conteudo */
+}
+*{
+    box-sizing: border-box;
+}
+
+/* Se utliza "." para class e "#" para id */
+/* Os nomes nunca podem começar com número */ 
+/* Para usar varios tags com os mesmos atributos se usa a "," ex: .center, #center{ } */
+
+.center{
+    text-align: center;
+    width: 100%;
+    color: deepskyblue;
+    background-color: rgb(999, 999, 999);
+    border: 2px solid black; /* Tag para adcionar borda */
+    border-radius: 10px; /* Tag para arredondar a borda do texto */ 
+    padding: 0px;
+}
+
+#center{             
+    text-align: center; 
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 0, 255); 
+    background-image: url(../img/background\ img.jpg);
+    background-size: cover;
+    background-position: center; 
+    /* background:rgb(76, 0, 255) url(../img/background\ img.jpg) cover center; */ /* O background pode ser todo resumido em apenas uma linha */
+    
+    -webkit-text-stroke: 0.3px; /* Tag para adicionar contorno ao texto */
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    border: 5px outset pink ; /* dashed, dotted, double, groove, hidden, inset, none, outside, ridge, solid - Principais bordas do css */
+    padding: 0px;
+    
+}   
+
+.botao{
+
+    height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none; /* Tirar a marca azul do link */ 
+    margin-left: auto;
+
+}
+
+.botao:hover{ /* Propriedade para fazer uma ação quando o cursor estiver possicionado em cima do objeto */
+
+    background-color: white;
+    color: black;
+
+}
+.quadrado{
+
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-right: auto;
+
+}
