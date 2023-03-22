@@ -1,0 +1,11 @@
+10
+TESTETESTE
+TOMATE
+PEPINO
+Arthur 19 170
+Rodrigo 50 190
+Ricardo 70 160
+Paulo 20 190
+Daniel 20 190
+Kevin 19 170
+Julia 25 150

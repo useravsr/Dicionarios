@@ -1,0 +1,10 @@
+void cabecalho();
+int procurarLetra(int *acertou);
+int chuta();
+int ganhar(int *acertou, unsigned int acertouValor);
+int boneco(int erros,int *enforcou);
+int enforcar(int *enforcou);
+void trofeu();
+void morto();
+void escreverTXT();
+void escolhaPalavra();
