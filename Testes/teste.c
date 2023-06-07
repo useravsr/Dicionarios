@@ -2,16 +2,12 @@
 #include<string.h>
 int main(){
 
-    int a = 20;
-    double b = 6.6;
-    int c;
-
-    c = a + b;
-    printf("%d", c);
+    char *p = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int i;
+    for ( i = 0; i < 5; i++) *p++; *p++;
     
-
-    return 0;
-
+    printf("%c", p);
+    
 }
 
 
